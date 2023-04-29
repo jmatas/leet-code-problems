@@ -1,11 +1,11 @@
-package org.jmatas.addtwonumbers;
+package org.jmatas.problems.addtwonumbers;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 import java.util.stream.Stream;
 
-import org.jmatas.addtwonumbers.AddTwoNumbersSolution.ListNode;
+import org.jmatas.problems.addtwonumbers.AddTwoNumbersSolution.ListNode;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

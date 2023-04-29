@@ -1,4 +1,4 @@
-package org.jmatas.addtwonumbers;
+package org.jmatas.problems.addtwonumbers;
 
 import java.math.BigDecimal;
 
