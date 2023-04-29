@@ -46,14 +46,6 @@ public class AddTwoNumbersPerfomanceBasedSolution {
         return firstNumber;
     }
 
-    private static int getValue(ListNode current1) {
-        int value1 = 0;
-        if (current1 != null) {
-            value1 = current1.val;
-        }
-        return value1;
-    }
-
     /**
      * Definition for singly-linked list.
      */
