@@ -1,4 +1,4 @@
-package org.jmatas;
+package org.jmatas.problems.twosum;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
@@ -10,13 +10,13 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-class SolutionTest {
+class TwoSumSolutionTest {
 
-    private Solution solution;
+    private TwoSumSolution solution;
 
     @BeforeEach
     public void setUp() {
-        solution = new Solution();
+        solution = new TwoSumSolution();
     }
 
     @ParameterizedTest
