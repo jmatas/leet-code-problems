@@ -57,6 +57,11 @@ class AddTwoNumbersSolutionTest {
                         new ListNode(9, new ListNode(9,new ListNode(9,new ListNode(9, new ListNode(9,new ListNode(9,new ListNode(9))))))),
                         new ListNode(9, new ListNode(9,new ListNode(9,new ListNode(9)))),
                         new ListNode(8, new ListNode(9,new ListNode(9,new ListNode(9, new ListNode(0,new ListNode(0,new ListNode(0, new ListNode(1))))))))
+                ),
+                arguments("Example 4",
+                        new ListNode(9),
+                        new ListNode(1, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9,new ListNode(9,new ListNode(9)))))))))),
+                        new ListNode(0, new ListNode(0, new ListNode(0, new ListNode(0, new ListNode(0, new ListNode(0, new ListNode(0, new ListNode(0,new ListNode(0,new ListNode(0, new ListNode(1)))))))))))
                 )
         );
     }
