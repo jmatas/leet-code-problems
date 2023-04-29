@@ -11,12 +11,19 @@ public class AddTwoNumbersPerfomanceBasedSolution {
         int remaining = 0;
         do {
 
-            int value1 = getValue(current1);
-            int value2 = getValue(current2);
+            int value1 = 0;
+            if (current1 != null) {
+                value1 = current1.val;
+            }
+
+            int value2 = 0;
+            if (current2 != null) {
+                value2 = current2.val;
+            }
 
             int currentValue = value1 + value2 + remaining;
             int value = currentValue % 10;
-            remaining = currentValue/10;
+            remaining = currentValue / 10;
 
             if (firstNumber == null) {
                 firstNumber = new ListNode(value);
@@ -30,7 +37,7 @@ public class AddTwoNumbersPerfomanceBasedSolution {
             if (current1 != null) {
                 current1 = current1.next;
             }
-            if (current2  != null) {
+            if (current2 != null) {
                 current2 = current2.next;
             }
 
