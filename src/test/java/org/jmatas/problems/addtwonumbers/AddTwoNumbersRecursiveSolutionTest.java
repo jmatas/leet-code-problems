@@ -5,20 +5,20 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 import java.util.stream.Stream;
 
-import org.jmatas.problems.addtwonumbers.AddTwoNumbersSolution.ListNode;
+import org.jmatas.problems.addtwonumbers.AddTwoNumbersRecursiveSolution.ListNode;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-class AddTwoNumbersSolutionTest {
+class AddTwoNumbersRecursiveSolutionTest {
 
-    private AddTwoNumbersSolution solution;
+    private AddTwoNumbersRecursiveSolution solution;
 
     @BeforeEach
     public void setUp() {
-        solution = new AddTwoNumbersSolution();
+        solution = new AddTwoNumbersRecursiveSolution();
     }
 
     @Test

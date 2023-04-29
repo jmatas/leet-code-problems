@@ -2,7 +2,7 @@ package org.jmatas.problems.addtwonumbers;
 
 import java.math.BigDecimal;
 
-public class AddTwoNumbersSolution {
+public class AddTwoNumbersRecursiveSolution {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         BigDecimal summand1 = new BigDecimal(toDecimal(l1));
